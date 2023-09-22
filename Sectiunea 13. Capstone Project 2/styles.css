@@ -1,0 +1,47 @@
+.container1 {
+    display: flex;
+    background-color: lightseagreen;
+}
+
+
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+
+.container2 {
+display: grid;
+grid-template-rows: auto 1fr;
+grid-template-columns: 1 fr 1 fr;
+gap: 20px;
+
+width: 210mm;
+height: 297mm;
+
+}
+
+.Curriculum_Vitae {
+grid-row: 1;
+grid-column: 1 / span 2;
+text-align: center;
+background-color: lightskyblue;
+}
+
+
+
+.image-container img {
+    width: 150px;
+    border-radius: 50%;
+    border-color: lightcyan;
+}
+
+.text-container {
+    display: flex;
+    white-space: pre-line;
+    gap: 20px;
+   }
+
